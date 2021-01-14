@@ -1,0 +1,3 @@
+Admin credentials:
+    admin
+    admin

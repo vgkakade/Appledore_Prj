@@ -1,0 +1,8 @@
+django
+python
+django-phonenumber-field
+phonenumbers
+djangorestframework
+django-allauth
+django-rest-auth
+pillow
