@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "8f45e180-f61f-4361-9d50-fae90a12d17c",
+		"name": "Appledore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "core",
+			"item": [
+				{
+					"name": "home",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}",
+							"host": [
+								"{{host}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get_detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "customer",
+			"item": [
+				{
+					"name": "profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/usr/profile",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"usr",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/usr/auth/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"usr",
+								"auth",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/usr/register/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"usr",
+								"register",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all_address",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/usr/addr/",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"usr",
+								"addr",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "address_detail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/usr/addr/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"usr",
+								"addr",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
